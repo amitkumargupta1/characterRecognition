@@ -13,6 +13,7 @@ loaded_model = load_model('models/model.h5')
 # print(X_train[0].shape)
 
 #reshape data to fit model
+
 X_train = X_train.reshape(60000,28,28,1)
 X_test = X_test.reshape(10000,28,28,1)
 
